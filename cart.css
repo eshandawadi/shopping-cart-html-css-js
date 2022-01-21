@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding:0;
+}
+img{
+    width:319px;
+}
+
+.card-container,.card-container2{
+    display: flex;
+    width: 50%; 
+    
+    position: relative;
+    left: 19%;
+    
+}
+.item{
+    
+    border: 1px solid grey;
+    margin:1rem;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    background-color: aqua;
+    
+ 
+    
+}
+
+h6,p{
+    font-size: 20px;
+    font-weight: bold;
+}
+button.btn.btn-primary{
+ background-color: #4c63af;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center; 
+ 
+  font-size: 16px;
+  margin: 4px 2px; 
+  cursor: pointer;
+}
+ .navbar-container{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+   
+}
+.navbar-container:first-child{
+    margin-right: auto;
+
+}
+
+.navbar{
+    background-color: grey;
+    font-size: 26px;
+   
+}  
+.cart-logo{
+    cursor: pointer;
+}
+.card-section{
+    margin-right: 2rem;
+}
+.button-danger{
+    background-color: red;
+}
+/* .content-section {
+    margin-top: 4rem;
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    /* font-size: 1rem; max-width: 900px; 
+} */
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    padding:1rem;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+   
+}
