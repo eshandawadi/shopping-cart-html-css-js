@@ -25,8 +25,15 @@ function ready(){
       
     }
     document.getElementsByClassName('btn-purchase')[0].addEventListener('click',purchasedClicked)
+    updateCartTotal()
    
+
 }
+function myFunction() {
+    var x = document.getElementById("snackbar");
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+  }
 function purchasedClicked(){
     alert("thank you for your purchase")
     var cartItems=document.getElementsByClassName('cart-items')[0]
